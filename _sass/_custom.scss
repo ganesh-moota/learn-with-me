@@ -1,0 +1,39 @@
+// Dark theme colors
+$dark-primary: #333;
+$dark-secondary: #555;
+$dark-text: #fff;
+
+// Light theme colors
+$light-primary: #fff;
+$light-secondary: #f2f2f2;
+$light-text: #333;
+
+// Dark theme
+.dark-theme {
+  // Background color
+  background-color: $dark-primary;
+
+  // Text color
+  color: $dark-text;
+
+  // Customize specific Bootstrap components for dark theme
+  // For example:
+  .navbar {
+    background-color: $dark-secondary;
+  }
+}
+
+// Light theme
+.light-theme {
+  // Background color
+  background-color: $light-primary;
+
+  // Text color
+  color: $light-text;
+
+  // Customize specific Bootstrap components for light theme
+  // For example:
+  .navbar {
+    background-color: $light-secondary;
+  }
+}
